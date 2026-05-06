@@ -3,7 +3,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'GBL Internal Hub',
   description: 'Internal resources for the Good Business Lab team',
-  // TODO: replace 'gbldocs' with your actual GitHub repo name
+  // TODO: replace 'gbldocs' with your actual GitHub repo name.
+  // This MUST match the repository name exactly for GitHub Pages deployment to work.
+  // Example: if your repo is https://github.com/myorg/my-docs, set base: '/my-docs/'
   base: '/gbldocs/',
   lang: 'en-US',
   cleanUrls: false,
