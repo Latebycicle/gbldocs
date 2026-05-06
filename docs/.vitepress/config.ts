@@ -8,7 +8,7 @@ export default defineConfig({
   // Example: if your repo is https://github.com/myorg/my-docs, set base: '/my-docs/'
   base: '/gbldocs/',
   lang: 'en-US',
-  cleanUrls: false,
+  cleanUrls: true,
 
   themeConfig: {
     logo: 'https://framerusercontent.com/images/FEIiyE7QB8Qn2IJVCnBDy2T2M.png',
