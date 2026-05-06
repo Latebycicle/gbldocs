@@ -4,99 +4,88 @@ This page is for internal use by the GBL communications team. It outlines the vi
 
 ---
 
+## Logo
+
+![Good Business Lab logo](/blacklogo.webp)
+
+**Usage guidelines:**
+- Use on white or light backgrounds preferred for optimal contrast.
+- Do not stretch, recolor, or add effects without approval.
+- Maintain clear space around the logo equal to at least the height of the main mark.
+
+---
+
 ## Colours
 
-The GBL colour palette reflects our values: growth, warmth, clarity, and trustworthiness. Use these colours consistently across all communications.
-
-### Brand Colors
+The GBL colour palette is bold and intentional: a vibrant yellow primary, electric blue for secondary actions, and a sophisticated green accent. Together with our neutral palette, these colours create a modern, accessible, and distinctive visual identity.
 
 <ColorSwatch :colors="[
-  { name: 'Bright Yellow',   hex: '#f9f58c', usage: 'Primary call-to-action buttons, hero accents' },
-  { name: 'Electric Blue',   hex: '#0000ee', usage: 'Links, secondary actions, emphasis' },
-  { name: 'Forest Green',    hex: '#149d6c', usage: 'Accent highlights, success states' }
-]" />
-
-### Neutral Palette
-
-<ColorSwatch :colors="[
-  { name: 'Black',           hex: '#000000', usage: 'Text, borders, strong contrast' },
-  { name: 'Dark Gray',       hex: '#1a1a1a', usage: 'Secondary text, dark elements' },
-  { name: 'Medium Gray',     hex: '#6b6b6b', usage: 'Tertiary text, dividers' },
-  { name: 'White',           hex: '#ffffff', usage: 'Background, text on dark' },
-  { name: 'Cream',           hex: '#fffbed', usage: 'Light backgrounds, soft sections' }
+  { name: 'Primary Yellow',   hex: '#f9f58c', usage: 'Primary backgrounds, key UI elements, CTAs' },
+  { name: 'Electric Blue',    hex: '#0000ee', usage: 'Links, secondary actions, accents' },
+  { name: 'Sage Green',       hex: '#149d6c', usage: 'Accent highlights, success states' },
+  { name: 'Charcoal Black',   hex: '#000000', usage: 'Primary text, dark backgrounds' },
+  { name: 'Dark Gray',        hex: '#1a1a1a', usage: 'Secondary text, borders' },
+  { name: 'Medium Gray',      hex: '#6b6b6b', usage: 'Tertiary text, muted elements' },
+  { name: 'Light Gray',       hex: '#767676', usage: 'Dividers, subtle borders' },
+  { name: 'Off-White Cream',  hex: '#fffbed', usage: 'Page backgrounds, light sections' },
+  { name: 'Pure White',       hex: '#ffffff', usage: 'Card backgrounds, high contrast' }
 ]" />
 
 ---
 
 ## Typography
 
-GBL uses **Urbanist** as the primary typeface for a clean, modern appearance. **Inter** and serif typefaces (Times New Roman, EB Garamond) are used for specific contexts. All typefaces are set to Regular weight (400) for consistency and legibility.
+GBL uses a modern sans-serif primary typeface with serif alternates for editorial content. This combination ensures excellent readability on digital and print media.
 
 ### Font Families
-- **Urbanist** — Primary typeface for headings and UI elements (315 elements)
-- **Inter** — Clean sans-serif for modern contexts (4 elements)
-- **EB Garamond** — Serif option for editorial content (29 elements)
+
+- **Headings & UI:** Urbanist, Inter (clean, modern, accessible)
+- **Body Text:** System fonts, Times New Roman as fallback
+- **Editorial:** EB Garamond (serif, for highlighted quotes or special sections)
 
 ### Type Scale
 
-| Style    | Usage                                              | Size / Weight             | Line Height  |
-| -------- | -------------------------------------------------- | ------------------------- | ------------ |
-| H1       | Hero titles, main page titles                      | 56px, Regular (400)       | 70px         |
-| H2       | Section headers, subheadings                       | 32px, Regular (400)       | 38.4px       |
-| H3       | Subsection titles                                  | 20px, Regular (400)       | 32px         |
-| Body     | Paragraphs, descriptions, report body text         | 16px, Regular (400)       | Normal       |
-| Caption  | Image captions, footnotes, metadata                | 12–14px, Regular (400)    | 16.8px       |
+| Hierarchy | Size  | Weight | Line Height | Usage                                       |
+| --------- | ----- | ------ | ----------- | ------------------------------------------- |
+| H1        | 56px  | 400    | 1.25        | Page titles, major section headers          |
+| H2        | 32px  | 400    | 1.2         | Section headers, subsections                |
+| H3        | 20px  | 400    | 1.6         | Subheadings, card titles                    |
+| Body      | 16px  | 400    | 1.6         | Paragraphs, descriptions, main content      |
+| Small     | 14px  | 400    | 1.6         | Secondary text, metadata                    |
+| Caption   | 12px  | 400    | 1.5         | Image captions, footnotes, helper text      |
 
 ---
 
-## Logo
+## Spacing & Layout
 
-<img src="https://framerusercontent.com/images/FEIiyE7QB8Qn2IJVCnBDy2T2M.png" alt="Good Business Lab logo" style="max-width: 260px; margin: 16px 0;" />
+All spacing follows a consistent 8px base unit system, ensuring visual harmony and alignment.
 
-**Usage guidelines:**
-- Use on white or light backgrounds only.
-- Do not stretch, recolour, or add effects.
-- Maintain clear space around the logo equal to at least the height of the "G" in the mark.
+| Token      | Value  | Used For                           |
+| ---------- | ------ | ---------------------------------- |
+| XS         | 4px    | Minimal gaps, tight layouts        |
+| SM         | 8px    | Small gaps between elements        |
+| MD         | 16px   | Standard spacing, padding          |
+| LG         | 24px   | Section spacing, component spacing |
+| XL         | 32px   | Large gaps, card spacing           |
+| 2XL        | 48px   | Major section separation           |
+| 3XL        | 64px   | Page layout, container spacing     |
+| 4XL        | 80px   | Hero sections, large gaps          |
+| 5XL        | 120px  | Full-page sections                 |
 
 ---
 
-## Spacing
+## Border Radius
 
-GBL uses a consistent 2px base spacing unit for precise, scalable layouts.
+Subtle, consistent border radii maintain a professional appearance while adding warmth.
 
-| Scale   | Value  | Usage                                        |
-| ------- | ------ | -------------------------------------------- |
-| xs      | 24px   | Small gaps between elements                  |
-| sm      | 30px   | Standard margins and padding                 |
-| md      | 45px   | Medium sections and containers               |
-| lg      | 60px   | Large section spacing                        |
-| xl      | 80px   | Extra-large page sections                    |
-| xxl     | 120px  | Major layout divisions                       |
+| Style | Radius | Usage                          |
+| ----- | ------ | ------------------------------ |
+| Small | 10px   | Small components, buttons      |
+| MD    | 16px   | Cards, input fields            |
+| Large | 20px   | Larger cards, containers       |
+| Full  | 50px   | Pills, circular badges, buttons |
 
-## Components
-
-### Buttons
-- **Primary:** Bright yellow (`#f9f58c`) with black text, 50px border radius
-- **Secondary:** White background with dark text, 999px border radius
-- **Padding:** 15px horizontal, consistent vertical spacing
-
-### Links
-- **Color:** Electric blue (`#0000ee`)
-- **Font size:** 12–14px
-- **Hover:** Slight opacity change
-
-### Border Radii
-- **Small:** 10px
-- **Medium:** 16px
-- **Large:** 20px
-- **Full:** 50px–999px (for buttons, pills)
-
-## Accessibility
-
-**WCAG 2.1 Compliance: 100%**
-
-All color combinations meet or exceed AAA contrast ratios. Current passing pair:
-- Dark text (`#222222`) on white background (`#ffffff`): 15.91:1 ratio
+---
 
 ## Tone of Voice
 

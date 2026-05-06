@@ -2,6 +2,11 @@
 
 Good Business Lab's research and field programmes span five focus areas: **climate**, **health**, **livelihoods**, **gender**, and **workplace**. The projects below represent our current and recent initiatives.
 
+
+---
+
+<iframe src=”https://drive.google.com/embeddedfolderview?id=33characterlongidforfolderyouwishtoembed” width=”100%” height=”600px” frameborder=”0″ scrolling=”no”></iframe>
+
 ---
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 24px;">
