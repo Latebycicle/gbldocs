@@ -1,3 +1,5 @@
+/// <reference path="./css.d.ts" />
+
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import ColorSwatch from './components/ColorSwatch.vue'
 import type { Theme } from 'vitepress'
