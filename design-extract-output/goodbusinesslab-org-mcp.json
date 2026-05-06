@@ -1,0 +1,408 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 2805,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#1a1a1a",
+        "rgb": {
+          "r": 26,
+          "g": 26,
+          "b": 26,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 10
+        },
+        "count": 352,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#6b6b6b",
+        "rgb": {
+          "r": 107,
+          "g": 107,
+          "b": 107,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 42
+        },
+        "count": 282,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#0000ee",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 238,
+          "a": 1
+        },
+        "hsl": {
+          "h": 240,
+          "s": 100,
+          "l": 47
+        },
+        "count": 258,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 100
+        },
+        "count": 88,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#fffbed",
+        "rgb": {
+          "r": 255,
+          "g": 251,
+          "b": 237,
+          "a": 1
+        },
+        "hsl": {
+          "h": 47,
+          "s": 100,
+          "l": 96
+        },
+        "count": 80,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#767676",
+        "rgb": {
+          "r": 118,
+          "g": 118,
+          "b": 118,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 46
+        },
+        "count": 66,
+        "contexts": [
+          "border"
+        ]
+      },
+      {
+        "hex": "#555555",
+        "rgb": {
+          "r": 85,
+          "g": 85,
+          "b": 85,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 33
+        },
+        "count": 28,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#f9f58c",
+        "rgb": {
+          "r": 249,
+          "g": 245,
+          "b": 140,
+          "a": 1
+        },
+        "hsl": {
+          "h": 58,
+          "s": 90,
+          "l": 76
+        },
+        "count": 21,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#adadad",
+        "rgb": {
+          "r": 173,
+          "g": 173,
+          "b": 173,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 68
+        },
+        "count": 21,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#999999",
+        "rgb": {
+          "r": 153,
+          "g": 153,
+          "b": 153,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 60
+        },
+        "count": 12,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#e3efda",
+        "rgb": {
+          "r": 227,
+          "g": 239,
+          "b": 218,
+          "a": 1
+        },
+        "hsl": {
+          "h": 94,
+          "s": 40,
+          "l": 90
+        },
+        "count": 6,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#149d6c",
+        "rgb": {
+          "r": 20,
+          "g": 157,
+          "b": 108,
+          "a": 1
+        },
+        "hsl": {
+          "h": 159,
+          "s": 77,
+          "l": 35
+        },
+        "count": 3,
+        "contexts": [
+          "background"
+        ]
+      }
+    ]
+  },
+  "regions": [],
+  "componentClusters": [
+    {
+      "kind": "button",
+      "structuralHash": "button>svg",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "10px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "12px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        },
+        {
+          "css": {
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(34, 34, 34)",
+            "padding": "15px 18px 15px 18px",
+            "borderRadius": "999px",
+            "border": "0px none rgb(34, 34, 34)",
+            "fontSize": "13px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        }
+      ]
+    },
+    {
+      "kind": "button",
+      "structuralHash": "button>a",
+      "instanceCount": 3,
+      "variants": [
+        {
+          "css": {
+            "background": "rgb(249, 245, 140)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "50px",
+            "border": "0px outset rgb(0, 0, 0)",
+            "fontSize": "12px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        },
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px outset rgb(0, 0, 0)",
+            "fontSize": "12px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    },
+    {
+      "kind": "input",
+      "structuralHash": "input",
+      "instanceCount": 1,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(153, 153, 153)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "0px",
+            "border": "0px none rgb(153, 153, 153)",
+            "fontSize": "14px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 1
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "remediation": []
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://goodbusinesslab.org/",
+        "totalBytes": 119691,
+        "usedBytes": 34057,
+        "unusedBytes": 85634,
+        "unusedPercent": 72
+      },
+      {
+        "url": "https://goodbusinesslab.org/",
+        "totalBytes": 45,
+        "usedBytes": 45,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://goodbusinesslab.org/",
+        "totalBytes": 449,
+        "usedBytes": 0,
+        "unusedBytes": 449,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://goodbusinesslab.org/",
+        "totalBytes": 15092,
+        "usedBytes": 0,
+        "unusedBytes": 15092,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://goodbusinesslab.org/",
+        "totalBytes": 46,
+        "usedBytes": 46,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      }
+    ],
+    "totalBytes": 135323,
+    "usedBytes": 34148,
+    "unusedBytes": 101175,
+    "unusedPercent": 75,
+    "importantCount": 20,
+    "duplicates": 1605,
+    "vendorPrefixes": {
+      "webkit": 92,
+      "moz": 2,
+      "ms": 0,
+      "o": 0
+    },
+    "keyframes": [],
+    "specificity": {
+      "max": [
+        1,
+        5,
+        4
+      ],
+      "average": [
+        0,
+        2,
+        0.7
+      ],
+      "count": 719
+    },
+    "issues": [
+      "20 !important rules",
+      "1605 duplicate declarations",
+      "75% unused CSS"
+    ]
+  }
+}

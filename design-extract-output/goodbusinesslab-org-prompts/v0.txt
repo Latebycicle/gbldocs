@@ -1,0 +1,28 @@
+Build a landing page with this exact visual language.
+COLORS:
+  #000000
+  #1a1a1a
+  #6b6b6b
+  #0000ee
+  #ffffff
+  #fffbed
+  #767676
+  #555555
+  #f9f58c
+  #adadad
+  #999999
+  #e3efda
+  #149d6c
+FONTS: [object Object], [object Object], [object Object], [object Object]
+SPACING: 1, 24, 30, 45, 60, 64, 80, 120
+RADIUS: 10, 16, 20, 50, 999
+SHADOWS: rgba(0, 0, 0, 0.15) 0px 1px 3px 0px
+MATERIAL LANGUAGE: flat
+VOICE: Tone: neutral · Headings: unknown · CTA verbs: [object Object], [object Object], [object Object]
+LIBRARY: Use Vuetify 3 components with a custom theme object.
+SECTIONS (in order):
+- hero
+- features
+- cta
+- footer
+Use Tailwind. Match these tokens exactly. Keep the material language consistent.

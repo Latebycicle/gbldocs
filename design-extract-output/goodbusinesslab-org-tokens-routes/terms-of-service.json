@@ -1,0 +1,95 @@
+{
+  "url": "https://goodbusinesslab.org/terms-of-service",
+  "path": "/terms-of-service",
+  "added": {},
+  "changed": {
+    "primitive": {
+      "color": {
+        "neutral": {
+          "n200": {
+            "$value": "#6b6b6b"
+          },
+          "n300": {
+            "$value": "#222222"
+          },
+          "n400": {
+            "$value": "#ffffff"
+          },
+          "n500": {
+            "$value": "#767676"
+          },
+          "n600": {
+            "$value": "#fffbed"
+          },
+          "n700": {
+            "$value": "#999999"
+          },
+          "n800": {
+            "$value": "#adadad"
+          }
+        },
+        "text": {
+          "text2": {
+            "$value": "#222222"
+          },
+          "text3": {
+            "$value": "#202020"
+          },
+          "text4": {
+            "$value": "#6b6b6b"
+          },
+          "text5": {
+            "$value": "#999999"
+          }
+        }
+      },
+      "spacing": {
+        "s1": {
+          "$value": "10px"
+        },
+        "s2": {
+          "$value": "25px"
+        },
+        "s3": {
+          "$value": "30px"
+        },
+        "s4": {
+          "$value": "60px"
+        }
+      },
+      "radius": {
+        "r1": {
+          "$value": "50px"
+        }
+      },
+      "shadow": {
+        "sh0": {
+          "$value": "rgba(0, 0, 0, 0.15) 0px 1px 3px 0px"
+        }
+      },
+      "fontFamily": {
+        "f1": {
+          "$value": "Urbanist"
+        },
+        "f2": {
+          "$value": "Times New Roman"
+        },
+        "f3": {
+          "$value": "EB Garamond"
+        }
+      }
+    },
+    "semantic": {
+      "typography": {
+        "body": {
+          "$value": {
+            "fontFamily": "sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "500",
+            "lineHeight": "44.8px"
+          }
+        }
+      }
+    }
+  }
+}

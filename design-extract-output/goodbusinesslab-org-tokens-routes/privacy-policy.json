@@ -1,0 +1,92 @@
+{
+  "url": "https://goodbusinesslab.org/privacy-policy",
+  "path": "/privacy-policy",
+  "added": {},
+  "changed": {
+    "primitive": {
+      "color": {
+        "neutral": {
+          "n200": {
+            "$value": "#222222"
+          },
+          "n300": {
+            "$value": "#6b6b6b"
+          },
+          "n400": {
+            "$value": "#adadad"
+          },
+          "n500": {
+            "$value": "#ffffff"
+          },
+          "n600": {
+            "$value": "#767676"
+          },
+          "n700": {
+            "$value": "#fffbed"
+          },
+          "n800": {
+            "$value": "#999999"
+          }
+        },
+        "text": {
+          "text2": {
+            "$value": "#222222"
+          },
+          "text3": {
+            "$value": "#202020"
+          },
+          "text4": {
+            "$value": "#6b6b6b"
+          },
+          "text5": {
+            "$value": "#999999"
+          }
+        }
+      },
+      "spacing": {
+        "s1": {
+          "$value": "25px"
+        },
+        "s2": {
+          "$value": "60px"
+        },
+        "s3": {
+          "$value": "120px"
+        }
+      },
+      "radius": {
+        "r1": {
+          "$value": "50px"
+        }
+      },
+      "shadow": {
+        "sh0": {
+          "$value": "rgba(0, 0, 0, 0.15) 0px 1px 3px 0px"
+        }
+      },
+      "fontFamily": {
+        "f1": {
+          "$value": "Urbanist"
+        },
+        "f2": {
+          "$value": "Times New Roman"
+        },
+        "f3": {
+          "$value": "EB Garamond"
+        }
+      }
+    },
+    "semantic": {
+      "typography": {
+        "body": {
+          "$value": {
+            "fontFamily": "sans-serif",
+            "fontSize": "32px",
+            "fontWeight": "400",
+            "lineHeight": "38.4px"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pageIntent": {
+    "type": "landing",
+    "confidence": 0.45,
+    "path": "/",
+    "title": "Good Business Lab",
+    "description": "GBL is a global NGO that creates pathways out of poverty for the world’s working poor. We advance solut % ions in climate, health, livelihoods, gender, and workplace to improve worker wellbeing and bu",
+    "signals": [
+      {
+        "kind": "url",
+        "type": "landing",
+        "weight": 0.45,
+        "detail": "root-path"
+      }
+    ],
+    "alternates": [],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [],
+    "counts": {},
+    "readingOrder": []
+  }
+}

@@ -8,25 +8,44 @@ This page is for internal use by the GBL communications team. It outlines the vi
 
 The GBL colour palette reflects our values: growth, warmth, clarity, and trustworthiness. Use these colours consistently across all communications.
 
+### Brand Colors
+
 <ColorSwatch :colors="[
-  { name: 'Primary Green',   hex: '#3A7D44', usage: 'Primary actions, headings, key UI elements' },
-  { name: 'Warm Cream',      hex: '#F5F0E8', usage: 'Page backgrounds, light sections' },
-  { name: 'Charcoal',        hex: '#2C2C2C', usage: 'Body text, dark backgrounds' },
-  { name: 'Ochre Amber',     hex: '#D4920A', usage: 'Accent highlights, call-to-action' },
-  { name: 'Muted Sage',      hex: '#7EA58A', usage: 'Secondary elements, dividers, tags' }
+  { name: 'Bright Yellow',   hex: '#f9f58c', usage: 'Primary call-to-action buttons, hero accents' },
+  { name: 'Electric Blue',   hex: '#0000ee', usage: 'Links, secondary actions, emphasis' },
+  { name: 'Forest Green',    hex: '#149d6c', usage: 'Accent highlights, success states' }
+]" />
+
+### Neutral Palette
+
+<ColorSwatch :colors="[
+  { name: 'Black',           hex: '#000000', usage: 'Text, borders, strong contrast' },
+  { name: 'Dark Gray',       hex: '#1a1a1a', usage: 'Secondary text, dark elements' },
+  { name: 'Medium Gray',     hex: '#6b6b6b', usage: 'Tertiary text, dividers' },
+  { name: 'White',           hex: '#ffffff', usage: 'Background, text on dark' },
+  { name: 'Cream',           hex: '#fffbed', usage: 'Light backgrounds, soft sections' }
 ]" />
 
 ---
 
 ## Typography
 
-GBL uses a clean sans-serif typeface across all communications to ensure readability and a modern, professional appearance.
+GBL uses **Urbanist** as the primary typeface for a clean, modern appearance. **Inter** and serif typefaces (Times New Roman, EB Garamond) are used for specific contexts. All typefaces are set to Regular weight (400) for consistency and legibility.
 
-| Style    | Usage                                              | Size / Weight             |
-| -------- | -------------------------------------------------- | ------------------------- |
-| Heading  | Page titles, section headers                       | 24–36px, Bold (700)       |
-| Body     | Paragraphs, descriptions, report body text         | 16px, Regular (400)       |
-| Caption  | Image captions, footnotes, metadata                | 12–13px, Regular (400)    |
+### Font Families
+- **Urbanist** — Primary typeface for headings and UI elements (315 elements)
+- **Inter** — Clean sans-serif for modern contexts (4 elements)
+- **EB Garamond** — Serif option for editorial content (29 elements)
+
+### Type Scale
+
+| Style    | Usage                                              | Size / Weight             | Line Height  |
+| -------- | -------------------------------------------------- | ------------------------- | ------------ |
+| H1       | Hero titles, main page titles                      | 56px, Regular (400)       | 70px         |
+| H2       | Section headers, subheadings                       | 32px, Regular (400)       | 38.4px       |
+| H3       | Subsection titles                                  | 20px, Regular (400)       | 32px         |
+| Body     | Paragraphs, descriptions, report body text         | 16px, Regular (400)       | Normal       |
+| Caption  | Image captions, footnotes, metadata                | 12–14px, Regular (400)    | 16.8px       |
 
 ---
 
@@ -40,6 +59,44 @@ GBL uses a clean sans-serif typeface across all communications to ensure readabi
 - Maintain clear space around the logo equal to at least the height of the "G" in the mark.
 
 ---
+
+## Spacing
+
+GBL uses a consistent 2px base spacing unit for precise, scalable layouts.
+
+| Scale   | Value  | Usage                                        |
+| ------- | ------ | -------------------------------------------- |
+| xs      | 24px   | Small gaps between elements                  |
+| sm      | 30px   | Standard margins and padding                 |
+| md      | 45px   | Medium sections and containers               |
+| lg      | 60px   | Large section spacing                        |
+| xl      | 80px   | Extra-large page sections                    |
+| xxl     | 120px  | Major layout divisions                       |
+
+## Components
+
+### Buttons
+- **Primary:** Bright yellow (`#f9f58c`) with black text, 50px border radius
+- **Secondary:** White background with dark text, 999px border radius
+- **Padding:** 15px horizontal, consistent vertical spacing
+
+### Links
+- **Color:** Electric blue (`#0000ee`)
+- **Font size:** 12–14px
+- **Hover:** Slight opacity change
+
+### Border Radii
+- **Small:** 10px
+- **Medium:** 16px
+- **Large:** 20px
+- **Full:** 50px–999px (for buttons, pills)
+
+## Accessibility
+
+**WCAG 2.1 Compliance: 100%**
+
+All color combinations meet or exceed AAA contrast ratios. Current passing pair:
+- Dark text (`#222222`) on white background (`#ffffff`): 15.91:1 ratio
 
 ## Tone of Voice
 

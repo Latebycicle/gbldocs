@@ -1,0 +1,123 @@
+{
+  "url": "https://goodbusinesslab.org",
+  "path": "/",
+  "added": {},
+  "changed": {
+    "primitive": {
+      "color": {
+        "neutral": {
+          "n200": {
+            "$value": "#6b6b6b"
+          },
+          "n300": {
+            "$value": "#1a1a1a"
+          },
+          "n400": {
+            "$value": "#fffbed"
+          },
+          "n500": {
+            "$value": "#ffffff"
+          },
+          "n600": {
+            "$value": "#555555"
+          },
+          "n700": {
+            "$value": "#767676"
+          },
+          "n800": {
+            "$value": "#adadad"
+          },
+          "n900": {
+            "$value": "#999999"
+          }
+        },
+        "text": {
+          "text2": {
+            "$value": "#fffbed"
+          },
+          "text3": {
+            "$value": "#ffffff"
+          },
+          "text4": {
+            "$value": "#555555"
+          },
+          "text5": {
+            "$value": "#1a1a1a"
+          },
+          "text6": {
+            "$value": "#222222"
+          },
+          "text7": {
+            "$value": "#202020"
+          },
+          "text8": {
+            "$value": "#6b6b6b"
+          },
+          "text9": {
+            "$value": "#999999"
+          }
+        }
+      },
+      "spacing": {
+        "s1": {
+          "$value": "24px"
+        },
+        "s2": {
+          "$value": "30px"
+        },
+        "s3": {
+          "$value": "60px"
+        },
+        "s4": {
+          "$value": "64px"
+        },
+        "s5": {
+          "$value": "80px"
+        }
+      },
+      "radius": {
+        "r1": {
+          "$value": "16px"
+        },
+        "r2": {
+          "$value": "20px"
+        },
+        "r3": {
+          "$value": "50px"
+        },
+        "r4": {
+          "$value": "999px"
+        }
+      },
+      "fontFamily": {
+        "f1": {
+          "$value": "Urbanist"
+        },
+        "f2": {
+          "$value": "Times"
+        },
+        "f3": {
+          "$value": "urbanist"
+        },
+        "f4": {
+          "$value": "EB Garamond"
+        },
+        "f5": {
+          "$value": "Inter"
+        }
+      }
+    },
+    "semantic": {
+      "typography": {
+        "body": {
+          "$value": {
+            "fontFamily": "sans-serif",
+            "fontSize": "56px",
+            "fontWeight": "400",
+            "lineHeight": "70px"
+          }
+        }
+      }
+    }
+  }
+}

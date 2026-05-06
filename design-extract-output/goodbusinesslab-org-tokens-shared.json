@@ -1,0 +1,85 @@
+{
+  "primitive": {
+    "color": {
+      "brand": {
+        "primary": {
+          "$value": "#f9f58c"
+        },
+        "secondary": {
+          "$value": "#0000ee"
+        }
+      },
+      "neutral": {
+        "n100": {
+          "$value": "#000000"
+        }
+      },
+      "background": {
+        "bg0": {
+          "$value": "#fffbed"
+        },
+        "bg1": {
+          "$value": "#f9f58c"
+        },
+        "bg2": {
+          "$value": "#e3efda"
+        }
+      },
+      "text": {
+        "text0": {
+          "$value": "#000000"
+        },
+        "text1": {
+          "$value": "#0000ee"
+        }
+      }
+    },
+    "spacing": {
+      "s0": {
+        "$value": "1px"
+      }
+    },
+    "radius": {
+      "r0": {
+        "$value": "10px"
+      }
+    },
+    "fontFamily": {
+      "f0": {
+        "$value": "sans-serif"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "action": {
+        "primary": {
+          "$value": "{primitive.color.brand.primary}"
+        },
+        "secondary": {
+          "$value": "{primitive.color.brand.secondary}"
+        }
+      },
+      "surface": {
+        "default": {
+          "$value": "{primitive.color.background.bg0}"
+        }
+      },
+      "text": {
+        "body": {
+          "$value": "{primitive.color.text.text0}"
+        }
+      }
+    },
+    "radius": {
+      "control": {
+        "$value": "{primitive.radius.r0}"
+      }
+    },
+    "shadow": {
+      "elevated": {
+        "$value": "{primitive.shadow.sh0}"
+      }
+    }
+  }
+}

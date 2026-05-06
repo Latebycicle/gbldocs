@@ -1,0 +1,50 @@
+{
+  "library": "unknown",
+  "confidence": 0,
+  "alternates": [],
+  "stats": {
+    "count": 5,
+    "strokeOnly": 0,
+    "fillOnly": 5,
+    "mixed": 0,
+    "avgStrokeWidth": 1.5,
+    "gridDistribution": {},
+    "roundedCapsFraction": 0.6
+  },
+  "signals": [
+    "fillDominant",
+    "roundedCaps"
+  ],
+  "icons": [
+    {
+      "class": "",
+      "grid": null,
+      "strokeWidth": null,
+      "style": "fill"
+    },
+    {
+      "class": "",
+      "grid": null,
+      "strokeWidth": 1.5,
+      "style": "fill"
+    },
+    {
+      "class": "",
+      "grid": null,
+      "strokeWidth": 1.5,
+      "style": "fill"
+    },
+    {
+      "class": "",
+      "grid": null,
+      "strokeWidth": 1.5,
+      "style": "fill"
+    },
+    {
+      "class": "",
+      "grid": null,
+      "strokeWidth": null,
+      "style": "fill"
+    }
+  ]
+}

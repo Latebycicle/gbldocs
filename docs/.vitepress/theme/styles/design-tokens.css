@@ -1,0 +1,178 @@
+/* Design Tokens extracted from goodbusinesslab.org */
+
+:root {
+  /* Brand Colors */
+  --gbl-primary-yellow: #f9f58c;
+  --gbl-secondary-blue: #0000ee;
+  --gbl-accent-green: #149d6c;
+
+  /* Neutral Colors */
+  --gbl-black: #000000;
+  --gbl-dark-gray: #1a1a1a;
+  --gbl-medium-gray: #6b6b6b;
+  --gbl-white: #ffffff;
+  --gbl-cream: #fffbed;
+  --gbl-light-gray: #767676;
+
+  /* Typography */
+  --gbl-font-primary: Urbanist, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --gbl-font-secondary: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --gbl-font-serif: 'EB Garamond', 'Times New Roman', serif;
+
+  /* Type Scale */
+  --gbl-text-h1: 56px;
+  --gbl-text-h2: 32px;
+  --gbl-text-h3: 20px;
+  --gbl-text-body: 16px;
+  --gbl-text-caption: 14px;
+
+  --gbl-line-height-tight: 1.4;
+  --gbl-line-height-normal: 1.6;
+  --gbl-line-height-relaxed: 1.8;
+
+  /* Spacing (base: 2px) */
+  --gbl-spacing-xs: 24px;
+  --gbl-spacing-sm: 30px;
+  --gbl-spacing-md: 45px;
+  --gbl-spacing-lg: 60px;
+  --gbl-spacing-xl: 80px;
+  --gbl-spacing-xxl: 120px;
+
+  /* Border Radius */
+  --gbl-radius-sm: 10px;
+  --gbl-radius-md: 16px;
+  --gbl-radius-lg: 20px;
+  --gbl-radius-full: 50px;
+  --gbl-radius-pill: 999px;
+
+  /* Shadows */
+  --gbl-shadow-sm: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+
+  /* Z-Index */
+  --gbl-z-dropdown: 1000;
+  --gbl-z-sticky: 1020;
+  --gbl-z-fixed: 1030;
+  --gbl-z-modal: 1040;
+  --gbl-z-popover: 1050;
+  --gbl-z-tooltip: 1060;
+}
+
+/* VitePress Theme Integration */
+:root {
+  --vp-c-brand: var(--gbl-secondary-blue);
+  --vp-c-brand-light: var(--gbl-secondary-blue);
+  --vp-c-brand-dark: var(--gbl-dark-gray);
+  --vp-c-brand-dimm: var(--gbl-medium-gray);
+
+  --vp-c-bg: var(--gbl-white);
+  --vp-c-bg-soft: var(--gbl-cream);
+  --vp-c-bg-mute: var(--gbl-light-gray);
+
+  --vp-c-text-1: var(--gbl-dark-gray);
+  --vp-c-text-2: var(--gbl-medium-gray);
+  --vp-c-text-3: var(--gbl-light-gray);
+
+  --vp-c-divider: var(--gbl-light-gray);
+  --vp-c-divider-light: var(--gbl-cream);
+
+  --vp-c-border: var(--gbl-light-gray);
+
+  /* Accent colors for highlights */
+  --vp-c-green: var(--gbl-accent-green);
+  --vp-c-yellow: var(--gbl-primary-yellow);
+
+  /* Font family */
+  --vp-font-family-base: var(--gbl-font-primary);
+  --vp-font-family-mono: 'Monaco', 'Courier New', monospace;
+
+  /* Font sizes */
+  --vp-font-size-12: 12px;
+  --vp-font-size-14: 14px;
+  --vp-font-size-16: 16px;
+  --vp-font-size-20: 20px;
+  --vp-font-size-32: 32px;
+  --vp-font-size-56: 56px;
+}
+
+/* Button Styling */
+.vp-button {
+  background-color: var(--gbl-primary-yellow);
+  color: var(--gbl-black);
+  border: none;
+  border-radius: var(--gbl-radius-pill);
+  padding: 12px 24px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.vp-button:hover {
+  opacity: 0.92;
+  transform: scale(1.02);
+}
+
+.vp-button.secondary {
+  background-color: var(--gbl-white);
+  color: var(--gbl-dark-gray);
+  border: 1px solid var(--gbl-light-gray);
+}
+
+/* Link Styling */
+a {
+  color: var(--gbl-secondary-blue);
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--gbl-font-primary);
+  font-weight: 400;
+  color: var(--gbl-dark-gray);
+}
+
+h1 {
+  font-size: var(--gbl-text-h1);
+  line-height: 70px;
+}
+
+h2 {
+  font-size: var(--gbl-text-h2);
+  line-height: 38.4px;
+}
+
+h3 {
+  font-size: var(--gbl-text-h3);
+  line-height: 32px;
+}
+
+/* Body Text */
+body {
+  font-family: var(--gbl-font-primary);
+  font-size: var(--gbl-text-body);
+  line-height: var(--gbl-line-height-normal);
+  color: var(--gbl-dark-gray);
+}
+
+p {
+  margin: var(--gbl-spacing-sm) 0;
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

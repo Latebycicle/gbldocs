@@ -1,0 +1,39 @@
+{
+  "tone": "neutral",
+  "pronoun": "third-person",
+  "headingStyle": "unknown",
+  "headingLengthClass": "tight",
+  "ctaVerbs": [
+    {
+      "value": "get",
+      "count": 3
+    },
+    {
+      "value": "see",
+      "count": 1
+    },
+    {
+      "value": "all",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "get in touch",
+      "count": 3
+    },
+    {
+      "value": "see more",
+      "count": 1
+    },
+    {
+      "value": "all projects",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [],
+  "stats": {
+    "buttons": 5,
+    "headings": 0
+  }
+}

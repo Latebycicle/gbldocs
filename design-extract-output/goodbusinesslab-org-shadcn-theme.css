@@ -1,0 +1,19 @@
+/* shadcn/ui Theme — extracted from https://goodbusinesslab.org */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 47 100% 96%;
+    --foreground: 0 0% 0%;
+    --primary: 58 90% 76%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 240 100% 47%;
+    --secondary-foreground: 0 0% 100%;
+    --accent: 159 77% 35%;
+    --accent-foreground: 0 0% 100%;
+    --muted: 0 0% 60%;
+    --muted-foreground: 0 0% 0%;
+    --border: 47 100% 96%;
+    --radius: 10px;
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "$metadata": {
+    "generator": "designlang",
+    "version": "7.0.0",
+    "spec": "https://design-tokens.github.io/community-group/format/",
+    "source": "https://goodbusinesslab.org",
+    "generatedAt": "2026-05-06T09:28:57.250Z"
+  },
+  "primitive": {
+    "color": {
+      "brand": {
+        "primary": {
+          "$value": "#f9f58c",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "#0000ee",
+          "$type": "color"
+        }
+      },
+      "neutral": {
+        "n100": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "n200": {
+          "$value": "#1a1a1a",
+          "$type": "color"
+        },
+        "n300": {
+          "$value": "#6b6b6b",
+          "$type": "color"
+        },
+        "n400": {
+          "$value": "#ffffff",
+          "$type": "color"
+        },
+        "n500": {
+          "$value": "#fffbed",
+          "$type": "color"
+        },
+        "n600": {
+          "$value": "#767676",
+          "$type": "color"
+        },
+        "n700": {
+          "$value": "#555555",
+          "$type": "color"
+        },
+        "n800": {
+          "$value": "#adadad",
+          "$type": "color"
+        },
+        "n900": {
+          "$value": "#999999",
+          "$type": "color"
+        }
+      },
+      "background": {
+        "bg0": {
+          "$value": "#fffbed",
+          "$type": "color"
+        },
+        "bg1": {
+          "$value": "#f9f58c",
+          "$type": "color"
+        },
+        "bg2": {
+          "$value": "#e3efda",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "text0": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "text1": {
+          "$value": "#0000ee",
+          "$type": "color"
+        },
+        "text2": {
+          "$value": "#fffbed",
+          "$type": "color"
+        },
+        "text3": {
+          "$value": "#ffffff",
+          "$type": "color"
+        },
+        "text4": {
+          "$value": "#555555",
+          "$type": "color"
+        },
+        "text5": {
+          "$value": "#1a1a1a",
+          "$type": "color"
+        },
+        "text6": {
+          "$value": "#222222",
+          "$type": "color"
+        },
+        "text7": {
+          "$value": "#202020",
+          "$type": "color"
+        },
+        "text8": {
+          "$value": "#6b6b6b",
+          "$type": "color"
+        },
+        "text9": {
+          "$value": "#999999",
+          "$type": "color"
+        }
+      }
+    },
+    "spacing": {
+      "s0": {
+        "$value": "1px",
+        "$type": "dimension"
+      },
+      "s1": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "s2": {
+        "$value": "30px",
+        "$type": "dimension"
+      },
+      "s3": {
+        "$value": "45px",
+        "$type": "dimension"
+      },
+      "s4": {
+        "$value": "60px",
+        "$type": "dimension"
+      },
+      "s5": {
+        "$value": "64px",
+        "$type": "dimension"
+      },
+      "s6": {
+        "$value": "80px",
+        "$type": "dimension"
+      },
+      "s7": {
+        "$value": "120px",
+        "$type": "dimension"
+      }
+    },
+    "radius": {
+      "r0": {
+        "$value": "10px",
+        "$type": "dimension"
+      },
+      "r1": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "r2": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "r3": {
+        "$value": "50px",
+        "$type": "dimension"
+      },
+      "r4": {
+        "$value": "999px",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "sh0": {
+        "$value": "rgba(0, 0, 0, 0.15) 0px 1px 3px 0px",
+        "$type": "shadow"
+      }
+    },
+    "fontFamily": {
+      "f0": {
+        "$value": "sans-serif",
+        "$type": "fontFamily"
+      },
+      "f1": {
+        "$value": "Urbanist",
+        "$type": "fontFamily"
+      },
+      "f2": {
+        "$value": "Times New Roman",
+        "$type": "fontFamily"
+      },
+      "f3": {
+        "$value": "Times",
+        "$type": "fontFamily"
+      },
+      "f4": {
+        "$value": "EB Garamond",
+        "$type": "fontFamily"
+      },
+      "f5": {
+        "$value": "urbanist",
+        "$type": "fontFamily"
+      },
+      "f6": {
+        "$value": "Inter",
+        "$type": "fontFamily"
+      }
+    }
+  },
+  "semantic": {
+    "color": {
+      "action": {
+        "primary": {
+          "$value": "{primitive.color.brand.primary}",
+          "$type": "color"
+        },
+        "secondary": {
+          "$value": "{primitive.color.brand.secondary}",
+          "$type": "color"
+        }
+      },
+      "surface": {
+        "default": {
+          "$value": "{primitive.color.background.bg0}",
+          "$type": "color"
+        }
+      },
+      "text": {
+        "body": {
+          "$value": "{primitive.color.text.text0}",
+          "$type": "color"
+        }
+      }
+    },
+    "typography": {
+      "body": {
+        "$value": {
+          "fontFamily": "sans-serif",
+          "fontSize": "56px",
+          "fontWeight": "400",
+          "lineHeight": "70px"
+        },
+        "$type": "typography"
+      }
+    },
+    "radius": {
+      "control": {
+        "$value": "{primitive.radius.r0}",
+        "$type": "dimension"
+      }
+    },
+    "shadow": {
+      "elevated": {
+        "$value": "{primitive.shadow.sh0}",
+        "$type": "shadow"
+      }
+    }
+  }
+}
