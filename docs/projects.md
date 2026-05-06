@@ -5,13 +5,15 @@ Good Business Lab's research and field programmes span five focus areas: **clima
 
 ---
 
-<iframe src=”https://drive.google.com/embeddedfolderview?id=33characterlongidforfolderyouwishtoembed” width=”100%” height=”600px” frameborder=”0″ scrolling=”no”></iframe>
+
+<iframe src="https://drive.google.com/embeddedfolderview?id=1fm5MTPiW17GKRRnXllEe6uncWxSM30O0" width="100%" height="600px" frameborder="0" scrolling="no"></iframe>
+
 
 ---
 
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 24px;">
+<div class="project-grid">
 
-<div style="border: 1px solid var(--vp-c-border); border-radius: 10px; padding: 20px; background: var(--vp-c-bg-soft);">
+<div class="project-card">
 
 **Earned Wage Access**
 
@@ -19,11 +21,11 @@ Exploring how on-demand pay affects financial resilience and wellbeing for garme
 
 🌏 Garment sector, India
 
-<span style="display:inline-block; background:#d4edda; color:#155724; font-size:12px; font-weight:600; padding:2px 10px; border-radius:12px;">Active</span>
+<span class="status-badge status-badge--active">Active</span>
 
 </div>
 
-<div style="border: 1px solid var(--vp-c-border); border-radius: 10px; padding: 20px; background: var(--vp-c-bg-soft);">
+<div class="project-card">
 
 **Peer Support for Migrant Workers**
 
@@ -31,11 +33,11 @@ Piloting structured peer-support networks to improve mental health outcomes for 
 
 🌏 Mental health, Southeast Asia
 
-<span style="display:inline-block; background:#d4edda; color:#155724; font-size:12px; font-weight:600; padding:2px 10px; border-radius:12px;">Active</span>
+<span class="status-badge status-badge--active">Active</span>
 
 </div>
 
-<div style="border: 1px solid var(--vp-c-border); border-radius: 10px; padding: 20px; background: var(--vp-c-bg-soft);">
+<div class="project-card">
 
 **Good Business Forum 2025**
 
@@ -43,11 +45,11 @@ Annual coalition convening bringing together brands, suppliers, and civil societ
 
 🌏 Coalition event
 
-<span style="display:inline-block; background:#e2e3e5; color:#383d41; font-size:12px; font-weight:600; padding:2px 10px; border-radius:12px;">Completed</span>
+<span class="status-badge status-badge--completed">Completed</span>
 
 </div>
 
-<div style="border: 1px solid var(--vp-c-border); border-radius: 10px; padding: 20px; background: var(--vp-c-bg-soft);">
+<div class="project-card">
 
 **Climate & Livelihoods Pilot**
 
@@ -55,11 +57,11 @@ Field research examining how climate shocks intersect with worker income and foo
 
 🌏 Field research, India
 
-<span style="display:inline-block; background:#fff3cd; color:#856404; font-size:12px; font-weight:600; padding:2px 10px; border-radius:12px;">Planning</span>
+<span class="status-badge status-badge--planning">Planning</span>
 
 </div>
 
-<div style="border: 1px solid var(--vp-c-border); border-radius: 10px; padding: 20px; background: var(--vp-c-bg-soft);">
+<div class="project-card">
 
 **Worker Health Index**
 
@@ -67,7 +69,7 @@ Multi-country survey measuring physical and mental health indicators across supp
 
 🌏 Multi-country survey
 
-<span style="display:inline-block; background:#d4edda; color:#155724; font-size:12px; font-weight:600; padding:2px 10px; border-radius:12px;">Active</span>
+<span class="status-badge status-badge--active">Active</span>
 
 </div>
 

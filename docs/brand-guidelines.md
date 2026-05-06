@@ -1,95 +1,65 @@
 # Brand Guidelines
 
-This page is for internal use by the GBL communications team. It outlines the visual identity standards that should be applied consistently across all Good Business Lab materials, presentations, and publications.
-
----
-
-## Logo
-
-![Good Business Lab logo](/blacklogo.webp)
-
-**Usage guidelines:**
-- Use on white or light backgrounds preferred for optimal contrast.
-- Do not stretch, recolor, or add effects without approval.
-- Maintain clear space around the logo equal to at least the height of the main mark.
+This page documents the visual identity reflected in the current Good Business Lab website. Use it as the source of truth for web pages, presentation materials, and internal assets that should feel aligned with the public site.
 
 ---
 
 ## Colours
 
-The GBL colour palette is bold and intentional: a vibrant yellow primary, electric blue for secondary actions, and a sophisticated green accent. Together with our neutral palette, these colours create a modern, accessible, and distinctive visual identity.
+The website uses a restrained palette built around a warm yellow, a vivid blue, a green accent, and neutral black, cream, and white surfaces.
 
 <ColorSwatch :colors="[
-  { name: 'Primary Yellow',   hex: '#f9f58c', usage: 'Primary backgrounds, key UI elements, CTAs' },
-  { name: 'Electric Blue',    hex: '#0000ee', usage: 'Links, secondary actions, accents' },
-  { name: 'Sage Green',       hex: '#149d6c', usage: 'Accent highlights, success states' },
-  { name: 'Charcoal Black',   hex: '#000000', usage: 'Primary text, dark backgrounds' },
-  { name: 'Dark Gray',        hex: '#1a1a1a', usage: 'Secondary text, borders' },
-  { name: 'Medium Gray',      hex: '#6b6b6b', usage: 'Tertiary text, muted elements' },
-  { name: 'Light Gray',       hex: '#767676', usage: 'Dividers, subtle borders' },
-  { name: 'Off-White Cream',  hex: '#fffbed', usage: 'Page backgrounds, light sections' },
-  { name: 'Pure White',       hex: '#ffffff', usage: 'Card backgrounds, high contrast' }
+  { name: 'Primary Yellow', hex: '#f9f58c', usage: 'Primary buttons, highlights, warm surfaces' },
+  { name: 'Secondary Blue', hex: '#0000ee', usage: 'Links, emphasis, active navigation states' },
+  { name: 'Accent Green', hex: '#149d6c', usage: 'Supportive accents, success states, secondary markers' },
+  { name: 'Ink Black', hex: '#000000', usage: 'Primary text, logo usage, strong contrast' },
+  { name: 'Soft Cream', hex: '#fffbed', usage: 'Main page background, soft panels' },
+  { name: 'White', hex: '#ffffff', usage: 'Cards, elevated surfaces, content areas' }
 ]" />
+
+**Usage rules:**
+- Use yellow for primary actions and emphasis.
+- Use blue for links and interactive text.
+- Use green sparingly for supportive status or accent treatment.
+- Keep the background system light and warm with cream and white surfaces.
 
 ---
 
 ## Typography
 
-GBL uses a modern sans-serif primary typeface with serif alternates for editorial content. This combination ensures excellent readability on digital and print media.
+The website combines a sans-serif body face with a serif display style for headings. Keep that contrast intact when creating new pages or components.
 
-### Font Families
+| Style | Typeface | Usage |
+| --- | --- | --- |
+| Heading / Display | EB Garamond, Times New Roman, Times | Hero text, page titles, feature titles |
+| Body | Urbanist, sans-serif | Paragraphs, navigation, labels, UI copy |
+| Supporting fallback | Times New Roman, Times | Legacy fallback for serif display text |
 
-- **Headings & UI:** Urbanist, Inter (clean, modern, accessible)
-- **Body Text:** System fonts, Times New Roman as fallback
-- **Editorial:** EB Garamond (serif, for highlighted quotes or special sections)
-
-### Type Scale
-
-| Hierarchy | Size  | Weight | Line Height | Usage                                       |
-| --------- | ----- | ------ | ----------- | ------------------------------------------- |
-| H1        | 56px  | 400    | 1.25        | Page titles, major section headers          |
-| H2        | 32px  | 400    | 1.2         | Section headers, subsections                |
-| H3        | 20px  | 400    | 1.6         | Subheadings, card titles                    |
-| Body      | 16px  | 400    | 1.6         | Paragraphs, descriptions, main content      |
-| Small     | 14px  | 400    | 1.6         | Secondary text, metadata                    |
-| Caption   | 12px  | 400    | 1.5         | Image captions, footnotes, helper text      |
+| Size | Weight | Typical usage |
+| --- | --- | --- |
+| 56px | 400 | Major hero headings |
+| 32px | 400 | Section headings |
+| 20px | 400 | Subheadings and feature titles |
+| 16px | 400 | Body text |
+| 12px-14px | 400-600 | Meta text, labels, captions |
 
 ---
 
-## Spacing & Layout
+## Logo
 
-All spacing follows a consistent 8px base unit system, ensuring visual harmony and alignment.
+<img src="/blacklogo.webp" alt="Good Business Lab logo" style="max-width: 220px; margin: 16px 0;" />
 
-| Token      | Value  | Used For                           |
-| ---------- | ------ | ---------------------------------- |
-| XS         | 4px    | Minimal gaps, tight layouts        |
-| SM         | 8px    | Small gaps between elements        |
-| MD         | 16px   | Standard spacing, padding          |
-| LG         | 24px   | Section spacing, component spacing |
-| XL         | 32px   | Large gaps, card spacing           |
-| 2XL        | 48px   | Major section separation           |
-| 3XL        | 64px   | Page layout, container spacing     |
-| 4XL        | 80px   | Hero sections, large gaps          |
-| 5XL        | 120px  | Full-page sections                 |
-
----
-
-## Border Radius
-
-Subtle, consistent border radii maintain a professional appearance while adding warmth.
-
-| Style | Radius | Usage                          |
-| ----- | ------ | ------------------------------ |
-| Small | 10px   | Small components, buttons      |
-| MD    | 16px   | Cards, input fields            |
-| Large | 20px   | Larger cards, containers       |
-| Full  | 50px   | Pills, circular badges, buttons |
+**Usage guidelines:**
+- Use the black logo on light backgrounds only.
+- Do not recolour, stretch, outline, or add effects.
+- Keep generous clear space around the mark.
+- Prefer the logo in the top-left site header and in other official collateral where a simple monochrome mark is appropriate.
 
 ---
 
 ## Tone of Voice
 
-- **Evidence-led** — Ground all claims in data, research, or lived worker experience.
+- **Evidence-led** — Ground claims in data, research, or lived worker experience.
 - **Accessible** — Write for a broad, global audience. Avoid jargon.
-- **Empathetic** — Centre the voices and experiences of the workers we serve.
-- **Precise** — Be specific. Prefer concrete numbers and facts over vague assertions.
+- **Empathetic** — Centre the experiences of the workers the organisation serves.
+- **Precise** — Prefer concrete numbers and specific outcomes over vague assertions.
