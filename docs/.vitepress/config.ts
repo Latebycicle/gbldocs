@@ -6,7 +6,7 @@ export default defineConfig({
   // TODO: replace 'gbldocs' with your actual GitHub repo name.
   // This MUST match the repository name exactly for GitHub Pages deployment to work.
   // Example: if your repo is https://github.com/myorg/my-docs, set base: '/my-docs/'
-  base: '/gbldocs/',
+  base: '/',
   lang: 'en-US',
   cleanUrls: true,
 
